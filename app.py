@@ -1,4 +1,8 @@
 import streamlit as st
+
+img = 'favicon-32x32.png'
+st.set_page_config(page_title="Swissbite", page_icon=img, layout="wide")
+
 import Input_stage
 import API_stage
 import Output_stage
